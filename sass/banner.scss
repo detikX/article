@@ -5,7 +5,7 @@
         width: 100%;
         height: 100%;
         @media screen and (max-width:766px) {
-            height: 100%;
+            height: 93%;
         }
         // &::before {
         //     content: "";
@@ -29,6 +29,7 @@
         width: 100%;
         @media screen and (max-width:766px) {
             width: 100%;
+            bottom: 46px;
         }
         &::before {
             content: "";
@@ -38,6 +39,9 @@
             right: 0;
             height: 20vh;
             background: linear-gradient(to top, #eee, transparent);
+            @media screen and (max-width:766px) {
+                height: 30vh;
+            }
         }
         h2 {
             font-family: 'Prompt';
@@ -49,6 +53,7 @@
             z-index: 4;
             @media screen and(max-width:766px) {
                 font-size: 2rem;
+                bottom: 10vh;
             }
         }
         p {

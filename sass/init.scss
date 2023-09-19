@@ -104,6 +104,9 @@ section {
     text-align: center;
     margin-top: 32px;
     border-bottom: 1px dashed #111;
+    @media screen and (max-width:766px) {
+        margin-top: 0;
+    }
     .topik {
         background: red;
         width: fit-content;

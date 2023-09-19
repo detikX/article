@@ -11,12 +11,17 @@ margin: 0;
 padding: 0;
 color: #222;
 background-color: #eee;
-font-size: 1.1rem;
-line-height: 2rem;
 font-family: 'Libre Baskerville';
-@media screen and (max-width:766px) {
-    font-size: .95rem;
-    line-height: 1.8rem;
+.data {
+    p {
+        font-size: 1.1rem;
+        line-height: 2rem;
+        @media screen and (max-width:766px) {
+            font-size: .95rem;
+            line-height: 1.8rem;
+        }
+
+    }
 }
 }
 

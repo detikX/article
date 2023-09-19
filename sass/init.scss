@@ -2,7 +2,7 @@ html,
 body {
 position: relative;
 height: 100%;
-font-family: 'Crimson Text';
+font-family: 'Libre Baskerville';
 overflow-x: clip;
 }
 
@@ -12,7 +12,7 @@ padding: 0;
 color: #222;
 background-color: #eee;
 font-size: 1.1rem;
-font-family: 'Crimson Text';
+font-family: 'Libre Baskerville';
 }
 
 
@@ -109,7 +109,7 @@ section {
     }
     p {
         // font-weight: 700;
-        font-family: 'Hepta Slab';
+        font-family: 'Hepta Slab' !important;
         font-size: 1.5rem;
         @media screen and (max-width:766px) {
             font-size: 1.2rem !important;

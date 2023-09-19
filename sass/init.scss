@@ -13,6 +13,9 @@ color: #222;
 background-color: #eee;
 font-size: 1.1rem;
 font-family: 'Libre Baskerville';
+@media screen and (max-width:766px) {
+    font-size: 1rem;
+}
 }
 
 
@@ -60,7 +63,7 @@ section {
     width: 700px;
     margin: 0 auto;
     @media screen and (max-width:766px) {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
         display: block;
     }

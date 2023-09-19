@@ -111,11 +111,13 @@ section {
         background: red;
         width: fit-content;
         padding: 2px 8px;
+        font-family: 'Prompt' !important;
         margin: 0 auto 8px;
         color: white;
     }
     .date {
         font-size: .85rem;
+        font-family: 'Prompt' !important;
         // width: fit-content;
         margin: 0 auto;
         // border-bottom: 1px dashed #111;
@@ -126,6 +128,7 @@ section {
         font-size: 1.5rem;
         @media screen and (max-width:766px) {
             font-size: 1.2rem !important;
+            line-height: 1.7rem !important;
         }
 
     }

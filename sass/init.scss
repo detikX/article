@@ -17,7 +17,7 @@ background-color: #eee;
         font-family: 'Prompt';
         line-height: 1.5rem;
         @media screen and (max-width:766px) {
-            font-size: .95rem;
+            font-size: 1rem;
             line-height: 1.3rem;
         }
     }
@@ -119,9 +119,11 @@ section {
     p {
         // font-weight: 700;
         font-family: 'Hepta Slab' !important;
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
+        line-height: 1.9rem !important;
         @media screen and (max-width:766px) {
             font-size: 1.2rem !important;
+            line-height: 1.7rem !important;
         }
 
     }
